@@ -1,0 +1,38 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: backend
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: category-deployment
+spec:
+  selector:
+    matchLabels:
+      app: category-service
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: category-service
+    spec:
+      containers:
+      - name: category-service
+        image: acrzero2azurewebinar.azurecr.io/category-service:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8200
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: category-service
+  labels:
+    app: category-service
+spec:
+  ports:
+  - name: category-service
+    port: 8200
+  selector:
+    app: category-service

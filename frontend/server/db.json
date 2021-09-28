@@ -1,0 +1,513 @@
+{
+  "orders": [
+    {
+      "id": "609e5e71984009ed987b3f56",
+      "name": "Kim",
+      "description": "Elit enim Lorem est dolor aute labore. Consectetur pariatur anim irure fugiat fugiat sunt ullamco ullamco fugiat labore pariatur qui. Ea aute non ex ut et ipsum nulla non aliquip ex. Reprehenderit incididunt pariatur tempor amet laboris eiusmod pariatur laboris officia ullamco dolore nostrud.",
+      "alttext": "Jeannine",
+      "img": "http://localhost:8080/img/FunkoHanLeia.jpg",
+      "price": "10.9768",
+      "photoUrls[]": "http://localhost:8080/img/FunkoAshoka.jpg",
+      "category[id]": "0",
+      "category[name]": "Funko",
+      "tags[0][id]": "0",
+      "tags[0][name]": "Funko",
+      "status": "available",
+      "quantity": "1"
+    },
+    {
+      "id": "609e5e719ee6f543fd47f4c2",
+      "name": "Melva",
+      "description": "Ad cupidatat commodo minim in eu est eiusmod voluptate ea. Non ad mollit voluptate esse ea excepteur. Cupidatat tempor ullamco dolore non nulla duis qui. Nulla anim eu nulla amet nostrud tempor labore.",
+      "alttext": "Theresa",
+      "img": "http://localhost:8080/img/FunkoObiWan.jpg",
+      "price": "4.8927",
+      "photoUrls[]": "http://localhost:8080/img/FunkoAshoka.jpg",
+      "category[id]": "0",
+      "category[name]": "Funko",
+      "tags[0][id]": "0",
+      "tags[0][name]": "Funko",
+      "status": "available",
+      "quantity": "1"
+    },
+    {
+      "id": "609e5e71b9cfeb2257f18159",
+      "name": "Good",
+      "description": "Mollit qui aute pariatur aute. Voluptate enim occaecat Lorem ipsum exercitation anim Lorem adipisicing magna nulla. Laborum cillum irure do exercitation Lorem est sint ut cillum do nisi. Et aute ad ullamco occaecat. Esse proident in nulla sit elit Lorem pariatur dolor. Exercitation ullamco consequat aute proident.",
+      "alttext": "Mejia",
+      "img": "http://localhost:8080/img/FunkoGrogu.jpg",
+      "price": "116.1019",
+      "photoUrls[]": "http://localhost:8080/img/FunkoAshoka.jpg",
+      "category[id]": "0",
+      "category[name]": "Funko",
+      "tags[0][id]": "0",
+      "tags[0][name]": "Funko",
+      "status": "available",
+      "quantity": "1"
+    }
+  ],
+  "users": {
+    "_embedded": {
+      "users": [
+        {
+          "email": "coffeyroman@geologix.com",
+          "firstName": "Mosley",
+          "id": "60c282626c918c3f08878c86",
+          "lastName": "Vincent",
+          "orders": [],
+          "password": 1234,
+          "phone": "+34 (898) 583-3900",
+          "userStatus": true,
+          "username": "Mosley Vincent"
+        },
+        {
+          "email": "hamptongill@geologix.com",
+          "firstName": "Gilbert",
+          "id": "60c28262763f49b274691ee2",
+          "lastName": "Brooks",
+          "orders": [],
+          "password": 1234,
+          "phone": "+34 (898) 523-2423",
+          "userStatus": false,
+          "username": "Gilbert Brooks"
+        },
+        {
+          "email": "patriciabutler@geologix.com",
+          "firstName": "Buchanan",
+          "id": "60c28262d4fce0c94e689c1d",
+          "lastName": "Summers",
+          "orders": [],
+          "password": 1234,
+          "phone": "+34 (910) 560-3948",
+          "userStatus": true,
+          "username": "Buchanan Summers"
+        },
+        {
+          "email": "fayporter@geologix.com",
+          "firstName": "Benjamin",
+          "id": "60c282627d2f8f4c8e1e324e",
+          "lastName": "Stuart",
+          "orders": [],
+          "password": 1234,
+          "phone": "+34 (860) 568-3016",
+          "userStatus": false,
+          "username": "Benjamin Stuart"
+        },
+        {
+          "email": "washingtonrodriguez@geologix.com",
+          "firstName": "Marshall",
+          "id": "60c282621692b24550d2ad72",
+          "lastName": "Buckner",
+          "orders": [],
+          "password": 1234,
+          "phone": "+34 (974) 582-3736",
+          "userStatus": true,
+          "username": "Marshall Buckner"
+        },
+        {
+          "email": "bennettconway@geologix.com",
+          "firstName": "Josephine",
+          "id": "60c28262b0ce5fce15b6ada9",
+          "lastName": "Mendoza",
+          "orders": [],
+          "password": 1234,
+          "phone": "+34 (915) 599-3487",
+          "userStatus": true,
+          "username": "Josephine Mendoza"
+        },
+        {
+          "email": "ineswebster@geologix.com",
+          "firstName": "Hillary",
+          "id": "60c2826261caba8cf9ceff48",
+          "lastName": "Everett",
+          "orders": [],
+          "password": 1234,
+          "phone": "+34 (948) 552-2743",
+          "userStatus": true,
+          "username": "Hillary Everett"
+        }
+      ]
+    },
+    "_links": {
+      "additionalProp1": {
+        "href": "string",
+        "templated": true
+      },
+      "additionalProp2": {
+        "href": "string",
+        "templated": true
+      },
+      "additionalProp3": {
+        "href": "string",
+        "templated": true
+      }
+    }
+  },
+  "items": {
+    "_embedded": {
+      "items": [
+        {
+          "id": "609e5e71984009ed987b3f56",
+          "name": "Kim",
+          "description": "Elit enim Lorem est dolor aute labore. Consectetur pariatur anim irure fugiat fugiat sunt ullamco ullamco fugiat labore pariatur qui. Ea aute non ex ut et ipsum nulla non aliquip ex. Reprehenderit incididunt pariatur tempor amet laboris eiusmod pariatur laboris officia ullamco dolore nostrud.",
+          "alttext": "Jeannine",
+          "img": "http://localhost:8080/img/FunkoHanLeia.jpg",
+          "price": "10.9768",
+          "photoUrls": [
+            "http://localhost:8080/img/FunkoAshoka.jpg"
+          ],
+          "category": {
+            "id": 0,
+            "name": "Funko"
+          },
+          "tags": [
+            {
+              "id": 0,
+              "name": "Funko"
+            }
+          ],
+          "status": "available"
+        },
+        {
+          "id": "609e5e71173a5e16bd227021",
+          "name": "Ida",
+          "description": "Excepteur laboris aliquip in commodo proident nostrud exercitation eu. Commodo do ipsum adipisicing non est veniam dolore exercitation exercitation proident. Voluptate elit eu proident eiusmod sint adipisicing voluptate ea ullamco ea cupidatat eu. Do deserunt excepteur irure nostrud mollit. Reprehenderit ad aliquip Lorem ullamco qui consectetur tempor mollit laboris eu adipisicing ex irure anim.",
+          "alttext": "Danielle",
+          "img": "http://localhost:8080/img/FunkoObiWan.jpg",
+          "price": "154.046",
+          "photoUrls": [
+            "http://localhost:8080/img/FunkoAshoka.jpg"
+          ],
+          "category": {
+            "id": 0,
+            "name": "Funko"
+          },
+          "tags": [
+            {
+              "id": 0,
+              "name": "Funko"
+            }
+          ],
+          "status": "available"
+        },
+        {
+          "id": "609e5e71e7990f11930d4df2",
+          "name": "Dunn",
+          "description": "Adipisicing anim voluptate exercitation sint pariatur cupidatat consectetur tempor magna. Cupidatat consequat et esse consectetur amet incididunt sit. Incididunt cupidatat reprehenderit deserunt eu incididunt do do aute. Lorem do do qui incididunt aute aute reprehenderit ipsum quis nisi officia. Minim magna minim officia ad incididunt sit. Eiusmod in cupidatat reprehenderit adipisicing laborum magna pariatur proident.",
+          "alttext": "Ophelia",
+          "img": "http://localhost:8080/img/FunkoGrogu.jpg",
+          "price": "131.002",
+          "photoUrls": [
+            "http://localhost:8080/img/FunkoAshoka.jpg"
+          ],
+          "category": {
+            "id": 0,
+            "name": "Funko"
+          },
+          "tags": [
+            {
+              "id": 0,
+              "name": "Funko"
+            }
+          ],
+          "status": "available"
+        },
+        {
+          "id": "609e5e7155a906e35db3bf66",
+          "name": "Charlene",
+          "description": "Cillum labore est eiusmod do ipsum aliquip ut aliquip proident culpa Lorem. Quis dolor do qui aliquip labore est amet. Ullamco consequat pariatur non Lorem veniam aliqua elit sunt culpa proident. Magna pariatur commodo minim laboris amet culpa exercitation. Dolor duis elit nisi minim. Ex in ex sint adipisicing. Veniam duis excepteur eiusmod esse elit excepteur officia in velit magna.",
+          "alttext": "Bowers",
+          "img": "http://localhost:8080/img/FunkoChewie.jpg",
+          "price": "134.9578",
+          "photoUrls": [
+            "http://localhost:8080/img/FunkoAshoka.jpg"
+          ],
+          "category": {
+            "id": 0,
+            "name": "Funko"
+          },
+          "tags": [
+            {
+              "id": 0,
+              "name": "Funko"
+            }
+          ],
+          "status": "available"
+        },
+        {
+          "id": "609e5e719ee6f543fd47f4c2",
+          "name": "Melva",
+          "description": "Ad cupidatat commodo minim in eu est eiusmod voluptate ea. Non ad mollit voluptate esse ea excepteur. Cupidatat tempor ullamco dolore non nulla duis qui. Nulla anim eu nulla amet nostrud tempor labore.",
+          "alttext": "Theresa",
+          "img": "http://localhost:8080/img/FunkoObiWan.jpg",
+          "price": "4.8927",
+          "photoUrls": [
+            "http://localhost:8080/img/FunkoAshoka.jpg"
+          ],
+          "category": {
+            "id": 0,
+            "name": "Funko"
+          },
+          "tags": [
+            {
+              "id": 0,
+              "name": "Funko"
+            }
+          ],
+          "status": "available"
+        },
+        {
+          "id": "609e5e7142f5164f285dda20",
+          "name": "Cummings",
+          "description": "Dolore nostrud exercitation non anim commodo ad reprehenderit velit sint aute. Nulla enim non dolore do commodo exercitation quis id amet ipsum mollit proident. Ea sint irure eu dolor id aliqua. Irure incididunt sit elit incididunt labore do aliqua minim laboris ipsum ea. Sint excepteur incididunt in reprehenderit cupidatat occaecat occaecat anim sunt aute dolor commodo magna. Qui consequat sint eu tempor consectetur nulla culpa veniam sint.",
+          "alttext": "Lynn",
+          "img": "http://localhost:8080/img/FunkoObiWan.jpg",
+          "price": "156.2597",
+          "photoUrls": [
+            "http://localhost:8080/img/FunkoAshoka.jpg"
+          ],
+          "category": {
+            "id": 0,
+            "name": "Funko"
+          },
+          "tags": [
+            {
+              "id": 0,
+              "name": "Funko"
+            }
+          ],
+          "status": "available"
+        },
+        {
+          "id": "609e5e71c33d88050f5c739d",
+          "name": "Audra",
+          "description": "Sint aliquip Lorem Lorem voluptate nisi pariatur amet laboris mollit magna eu exercitation. Amet non tempor laborum voluptate. Esse in voluptate sunt non nulla pariatur ea sunt in tempor exercitation non commodo ea. Voluptate ullamco id veniam aliquip commodo cupidatat.",
+          "alttext": "Graciela",
+          "img": "http://localhost:8080/img/FunkoGrogu.jpg",
+          "price": "51.8514",
+          "photoUrls": [
+            "http://localhost:8080/img/FunkoAshoka.jpg"
+          ],
+          "category": {
+            "id": 0,
+            "name": "Funko"
+          },
+          "tags": [
+            {
+              "id": 0,
+              "name": "Funko"
+            }
+          ],
+          "status": "available"
+        },
+        {
+          "id": "609e5e71bcd6a358c7d50881",
+          "name": "Meagan",
+          "description": "Deserunt anim qui velit magna reprehenderit velit tempor culpa id. Est id enim enim aute aliquip excepteur amet nisi incididunt tempor cupidatat. Duis labore fugiat culpa duis cupidatat reprehenderit consequat sint commodo pariatur ex elit incididunt voluptate. Ea aute aute adipisicing id adipisicing velit exercitation adipisicing adipisicing et amet dolor est. Id ex eu elit adipisicing aliquip mollit mollit deserunt amet sint aliqua commodo aliqua.",
+          "alttext": "Marina",
+          "img": "http://localhost:8080/img/FunkoHanLeia.jpg",
+          "price": "100.4323",
+          "photoUrls": [
+            "http://localhost:8080/img/FunkoAshoka.jpg"
+          ],
+          "category": {
+            "id": 0,
+            "name": "Funko"
+          },
+          "tags": [
+            {
+              "id": 0,
+              "name": "Funko"
+            }
+          ],
+          "status": "available"
+        },
+        {
+          "id": "609e5e71b9cfeb2257f18159",
+          "name": "Good",
+          "description": "Mollit qui aute pariatur aute. Voluptate enim occaecat Lorem ipsum exercitation anim Lorem adipisicing magna nulla. Laborum cillum irure do exercitation Lorem est sint ut cillum do nisi. Et aute ad ullamco occaecat. Esse proident in nulla sit elit Lorem pariatur dolor. Exercitation ullamco consequat aute proident.",
+          "alttext": "Mejia",
+          "img": "http://localhost:8080/img/FunkoGrogu.jpg",
+          "price": "116.1019",
+          "photoUrls": [
+            "http://localhost:8080/img/FunkoAshoka.jpg"
+          ],
+          "category": {
+            "id": 0,
+            "name": "Funko"
+          },
+          "tags": [
+            {
+              "id": 0,
+              "name": "Funko"
+            }
+          ],
+          "status": "available"
+        },
+        {
+          "id": "609e5e71dfc7f4d1c8286bce",
+          "name": "Esperanza",
+          "description": "Officia aute qui ullamco laborum irure sit. Ea dolore eiusmod sit eiusmod ad Lorem voluptate reprehenderit sint velit fugiat eu. Magna dolor non magna in culpa dolor qui elit quis dolore magna ad.",
+          "alttext": "Benson",
+          "img": "http://localhost:8080/img/FunkoChewie.jpg",
+          "price": "157.1814",
+          "photoUrls": [
+            "http://localhost:8080/img/FunkoAshoka.jpg"
+          ],
+          "category": {
+            "id": 0,
+            "name": "Funko"
+          },
+          "tags": [
+            {
+              "id": 0,
+              "name": "Funko"
+            }
+          ],
+          "status": "available"
+        },
+        {
+          "id": "609e5e7174599b4254a84286",
+          "name": "Iva",
+          "description": "Magna nisi eiusmod nulla proident est incididunt anim ut tempor eiusmod consectetur irure enim. Minim ut ad do aliquip enim veniam consectetur excepteur do tempor excepteur eiusmod consequat. Lorem nostrud eu duis dolore nostrud qui dolore ea do amet anim. Minim aute ea in enim est elit consequat occaecat id sint ipsum. Cupidatat aliquip ea sit aute aliqua ex incididunt excepteur.",
+          "alttext": "Santana",
+          "img": "http://localhost:8080/img/FunkoHanLeia.jpg",
+          "price": "40.3337",
+          "photoUrls": [
+            "http://localhost:8080/img/FunkoAshoka.jpg"
+          ],
+          "category": {
+            "id": 0,
+            "name": "Funko"
+          },
+          "tags": [
+            {
+              "id": 0,
+              "name": "Funko"
+            }
+          ],
+          "status": "available"
+        },
+        {
+          "id": "609e5e714542b8ea0aae491a",
+          "name": "Blackburn",
+          "description": "Magna commodo consectetur laborum veniam laboris labore in non et. Commodo fugiat deserunt pariatur dolore sit laboris velit amet consequat non amet labore laboris exercitation. Mollit sunt in dolore adipisicing fugiat sint ex elit. Exercitation sit est non pariatur culpa duis proident cupidatat excepteur irure culpa do dolor.",
+          "alttext": "Jefferson",
+          "img": "http://localhost:8080/img/FunkoR2D2.jpg",
+          "price": "74.7435",
+          "photoUrls": [
+            "http://localhost:8080/img/FunkoAshoka.jpg"
+          ],
+          "category": {
+            "id": 0,
+            "name": "Funko"
+          },
+          "tags": [
+            {
+              "id": 0,
+              "name": "Funko"
+            }
+          ],
+          "status": "available"
+        }
+      ]
+    },
+    "_links": {
+      "additionalProp1": {
+        "href": "string",
+        "templated": true
+      },
+      "additionalProp2": {
+        "href": "string",
+        "templated": true
+      },
+      "additionalProp3": {
+        "href": "string",
+        "templated": true
+      }
+    }
+  },
+  "services": {
+    "_embedded": {
+      "services": [
+        {
+          "covers": [
+            {
+              "description": "string",
+              "id": "string",
+              "name": "string"
+            }
+          ],
+          "description": "string",
+          "enabled": true,
+          "id": "string",
+          "name": "string"
+        }
+      ]
+    },
+    "_links": {
+      "additionalProp1": {
+        "href": "string",
+        "templated": true
+      },
+      "additionalProp2": {
+        "href": "string",
+        "templated": true
+      },
+      "additionalProp3": {
+        "href": "string",
+        "templated": true
+      }
+    }
+  },
+  "categories": {
+    "_embedded": {
+      "categories": [
+        {
+          "description": "Eu aliqua irure incididunt do ut enim id ullamco Lorem qui aliqua sit officia. Do proident irure qui deserunt laborum id irure minim enim adipisicing amet. Non pariatur minim dolore non commodo sit ex id.\r\n",
+          "id": "60c3cda89452a8e7545126ed",
+          "name": "Wazzu"
+        },
+        {
+          "description": "Consectetur exercitation ex duis tempor esse commodo minim. Proident occaecat enim enim reprehenderit sit magna. Mollit in labore voluptate laborum adipisicing. Consequat eu aliquip quis sit magna anim eiusmod voluptate veniam occaecat sit cupidatat nostrud. Proident exercitation in eu laboris amet nostrud minim esse consequat. Sunt tempor sunt duis anim eiusmod anim ex incididunt anim id Lorem occaecat sint. Anim elit cillum adipisicing sit consectetur minim ipsum dolore veniam.\r\n",
+          "id": "60c3cda86ea954fe82670d37",
+          "name": "Qiao"
+        },
+        {
+          "description": "Veniam fugiat sunt mollit id duis cupidatat. Consectetur voluptate dolore qui ea voluptate veniam excepteur esse commodo nostrud nisi nisi ullamco Lorem. Ad elit sint occaecat eiusmod magna dolor reprehenderit eu. Labore excepteur pariatur ut ad tempor enim nisi anim qui exercitation Lorem sint laboris magna.\r\n",
+          "id": "60c3cda838e04470c667a335",
+          "name": "Ontagene"
+        },
+        {
+          "description": "Deserunt reprehenderit non et eu. Anim et labore nostrud laborum. Aute labore ut laborum quis id quis velit esse in eu ex cupidatat tempor aute. Aliqua tempor amet ut consectetur ad qui duis. Pariatur amet cupidatat ex non incididunt enim ad proident dolor ex ullamco pariatur. Ea ex qui proident id do ea dolore laborum laboris sint. Fugiat ut laboris anim aute voluptate esse sint cillum magna.\r\n",
+          "id": "60c3cda84bd4852ed7156f66",
+          "name": "Isosphere"
+        },
+        {
+          "description": "Sit adipisicing ut reprehenderit laborum proident duis. Non et commodo pariatur minim mollit cillum elit irure sint. Et aute aute ullamco adipisicing ea nulla commodo esse nostrud non qui incididunt sunt.\r\n",
+          "id": "60c3cda8bf3449d0cb963260",
+          "name": "Datagene"
+        },
+        {
+          "description": "Occaecat deserunt id anim qui ad labore. Et sint labore deserunt dolore cillum aute reprehenderit enim incididunt voluptate cillum. Magna ex dolore sint occaecat labore qui tempor do proident. Enim laboris magna mollit elit enim duis velit quis. Proident cupidatat nulla quis nostrud adipisicing ut culpa.\r\n",
+          "id": "60c3cda81fab58a361e6fd76",
+          "name": "Zounds"
+        }
+      ]
+    },
+    "_links": {
+      "additionalProp1": {
+        "href": "string",
+        "templated": true
+      },
+      "additionalProp2": {
+        "href": "string",
+        "templated": true
+      },
+      "additionalProp3": {
+        "href": "string",
+        "templated": true
+      }
+    }
+  }
+}

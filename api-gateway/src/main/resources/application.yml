@@ -1,0 +1,39 @@
+# Spring properties
+spring:
+  application:
+     name: api-gateway  # Service registers under this name
+
+zuul:
+  #ignoredServices: '*'
+  ignored-headers: Access-Control-Allow-Credentials, Access-Control-Allow-Origin
+  routes:
+    user:
+      path: /watto/api/user/**
+      serviceId: USER-SERVICE
+      stripPrefix: false
+    login:
+      path: /watto/api/login
+      serviceId: USER-SERVICE
+      stripPrefix: false
+    category:
+      path: /watto/api/categories/**
+      serviceId: CATEGORY-SERVICE
+      stripPrefix: false
+    items:
+      path: /watto/api/items/**
+      serviceId: ITEM-SERVICE
+      stripPrefix: false
+    orders:
+      path: /watto/api/orders/**
+      serviceId: ORDER-SERVICE
+      stripPrefix: false
+
+# Discovery Server Access
+eureka:
+  client:
+    registerWithEureka: false
+    serviceUrl:
+      defaultZone: http://eureka-server:8761/eureka
+
+server:
+  port: 8080   # HTTP port

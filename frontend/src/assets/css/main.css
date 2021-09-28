@@ -1,0 +1,109 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+@font-face {
+    font-family: "StarJedi";
+    src: url("../fonts/StarJedi.woff");
+}
+@font-face {
+    font-family: "StarJediHollow";
+    src: url("../fonts/StarJediHollow.woff");
+}
+@font-face {
+    font-family: "Mandalorian";
+    src: url("../fonts/mandalor.woff");
+}
+@font-face {
+    font-family: "DistantGalaxy";
+    src: url("../fonts/DistantGalaxy.woff");
+}
+
+html{scroll-behavior: smooth;}
+
+::-webkit-scrollbar-track{background-color: transparent;}
+::-webkit-scrollbar{width: 5px;background-color: transparent;}
+::-webkit-scrollbar-thumb{
+  background-color: #ff4543;
+  background-image: -webkit-linear-gradient(90deg,
+                        transparent,
+                        rgba(0, 0, 0, 0.4) 50%,
+                        transparent,
+                        transparent)
+}
+
+.para-min-container{min-width: 433px;}
+
+.para-blue, .para-blue-hover-red:hover{color:#fff!important;background-color:#181F2C!important}
+.para-text-blue,.para-hover-text-blue:hover{color:#181F2C!important}
+.para-text-red{color:#ff4543}
+.para-display-fixedtopright{position:fixed;right:0;top:0; display:none}
+
+.para-logo-topright{right: 15px;top: 0;text-align: right;}
+.para-logo-fixedtopright{position: fixed;right: 15px;top: 0;text-align: right;}
+.para-logo-font{font-family: StarJedi, "courier new";}
+.para-logo-padding{padding-top:0px!important;padding-bottom:64px!important}
+.para-logo-sidebar{text-align: center;text-decoration-line: underline;font-size: 30px; margin-top: 0px}
+
+
+.para-h3-font{font-size: 1.17em;}
+.para-title-font{font-family: DistantGalaxy, "courier new"; font-weight: 100;}
+.para-manda-font{font-family: Mandalorian, "courier new"; font-size: 12px;}
+.para-manda-size{font-size: 30px;}
+.para-manda-size-cat {font-size: 18px;}
+.para-jumbo{font-size: 50px;}
+.para-spin{position: relative; max-height: 80px; max-width: 80px; margin: auto; margin-bottom: 20px;}
+.para-spin-external{border-top: 2px solid #ff4543; border-left: 2px solid #ff4543; border-radius: 50%; width: 60px; height: 60px; animation: para-spin-animation-external 2s linear infinite;}
+.para-spin-internal {border-top: 2px solid #181F2C; position: absolute; top: 10px; left: 10px; border-radius: 50%; width: 40px; height: 40px; animation: para-spin-animation-internal 2s linear infinite;}
+  
+@keyframes para-spin-animation-external {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+@keyframes para-spin-animation-internal {
+    0% { transform: rotate(360deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.para-black{color: #fff;background-color: #181F2C;}
+.para-white{color: #181F2C;}
+
+.para-half{width: 100%; float:left;text-align: center;}
+
+.para-shop-item{width: 50%; object-fit: contain; height: 200px; min-width: 150px;}
+
+.para-card-icon{height: 40px;top: 20px;cursor:pointer}
+.para-cart-img{margin-bottom: 0px !important; margin-top: 0px !important;max-height: 130px;max-width: 130px;}
+
+.para-shopping-cart{height: 100vh;width:0vw;overflow-x: hidden;background-color: #181F2C;position: fixed;top: 0;right: 0; transition: width 0.5s; top:65px;}
+.para-sideopen{width: 100vw;}
+
+.para-comp-button{cursor: pointer; background-color: #ff4543; border-radius: 50px; position: fixed; z-index: 100; top: 90%; left: 2%; height: 50px; text-align: center; width: 50px; vertical-align: middle; box-shadow: 5px 10px 18px;}
+.para-comp-button-image{height: 30px; width: 30px; top: 9px; position: relative;}
+
+.para-comp-button:hover{
+    background-color: #FFF;
+}
+
+.para-comp-hl { border: 5px dashed #03a9f4; display: none; height: 100%; left: 0px; position: absolute; top: 0; width: 100%; z-index: 50;}
+.para-comp-hl-white-logo{ border-color:blue; width: 69%; height: 68px; left: 110px;}
+.para-comp-hl-black-logo{ border-color:forestgreen; height: 68px; top: 15px; width: 210px; left: calc(100% - 210px);}
+.para-comp-hl-title{ border-color:greenyellow; height: calc(100% - 130px);}
+.para-comp-hl-showcase{ border-color:indigo; top: -120px; height: calc(100% + 120px);}
+.para-comp-hl-cart-icon{ border-color:orangered; left: calc(100% - 55px); width: 71px; top: 2px;}
+.para-comp-hl-cardlist{ border-color:teal; top: -220px; height: calc(100% + 220px);}
+.para-comp-hl-footer{ border-color:red; z-index:0;}
+.para-comp-hl-contact{ border-color:hotpink;}
+.para-comp-hl-list{ border-color:mediumspringgreen;}
+.para-comp-hl-service{ border-color:darkmagenta;}
+
+@media (min-width: 993px){
+    .para-shopping-cart{top: 0px;}
+}
+
+@media (min-width: 601px){
+    .para-half{width: 25%;}
+    .para-logo-fixedtopright {display: block;}
+    .para-sideopen{width: 50vw;}
+}
