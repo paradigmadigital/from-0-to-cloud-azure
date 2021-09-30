@@ -19,6 +19,8 @@ Código webinar From 0 to Cloud Despliegue de aplicación Cloud Friendly sobre A
 ## Autores
 
 👤 **Rubén Villar Escudero**
+👤 **Carlos Alberto Tauroni Hernández**
+👤 **Javier Serrano Herrero** 
 
 🏢 **PARADIGMA DIGITAL**
 
